@@ -13,53 +13,6 @@ pragma solidity ^0.4.18;
 // (c) BokkyPooBah / Bok Consulting Pty Ltd 2017. The MIT Licence.
 // ----------------------------------------------------------------------------
 
-
-/* CONFIG_START
-
-{
-  "title": "Fixed Supply Token",
-  "description": "A fixed supply token contract that allocates the indicated amount of tokens to the token contract owner on deployment.",
-  "params": [
-    {
-      "name": "Symbol",
-      "description": "The symbol used to identify your token",
-      "tag": "symbol",
-      "placeholder": "SCE",
-      "type": "text"
-    },
-    {
-      "name": "Name",
-      "description": "The name that you will give to your tokens",
-      "tag": "name",
-      "placeholder": "Scether Token",
-      "type": "text"
-    },
-    {
-      "name": "Total Supply",
-      "description": "The amount of tokens that will be minted (you cannot mint more after deployment)",
-      "tag": "totalsupply",
-      "placeholder": "1000000",
-      "type": "number",
-      "min": 1,
-      "max": 100000000000000000000
-    },
-    {
-      "name": "Decimals",
-      "description": "Maximum number of decimals (If you want to create a token that can only handle cents, use 2)",
-      "tag": "decimals",
-      "placeholder": "2",
-      "type": "number",
-      "min": 1,
-      "max": 18,
-      "html": "slider"
-    }
-  ],
-  "resume":"This contract will mint @-totalsupply @-symbol (@-name) with a maximum of @-decimals decimals to the sender address."
-}
-
-CONFIG_END */
-
-
 // ----------------------------------------------------------------------------
 // Safe maths
 // ----------------------------------------------------------------------------
