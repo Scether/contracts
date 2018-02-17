@@ -3,6 +3,7 @@
         "title": "Fixed Supply Token",
         "description": "A fixed supply token contract that allocates the indicated amount of tokens to the token contract owner on deployment.",
         "file": "contracts/FixedSupplyToken.sol",
+        "filehash":"2f4f48176bfb2fb3521c41871fa5c5fb0b7727f0d649cf71b30c5ade34a7d248",
         "params": [
             {
                 "name": "Symbol",
