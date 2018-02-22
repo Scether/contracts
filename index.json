@@ -4,6 +4,7 @@
         "description": "A fixed supply token contract that allocates the indicated amount of tokens to the token contract owner on deployment.",
         "file": "contracts/FixedSupplyToken.sol",
         "contractToDeploy": "FixedSupplyToken",
+        "type": 0,
         "params": [
             {
                 "name": "Symbol",
