@@ -70,9 +70,9 @@
             {
                 "name": "Margin of votes for majority",
                 "description": "A proposal passes if there are more than 50% of the votes plus the margin. Leave at 0 for simple majority, put it at the number of members - 1 to require an absolute consensus.",
-                "tag": "decimals",
-                "placeholder": "2",
-                "type": "marginOfVotesForMajority",
+                "tag": "marginOfVotesForMajority",
+                "placeholder": "0",
+                "type": "number",
                 "min": -9999,
                 "max": 9999
             }
