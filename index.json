@@ -41,5 +41,42 @@
             }
         ],
         "resume": "This contract will mint @-totalsupply @-symbol (@-name) with a maximum of @-decimals decimals to the sender address."
+    },
+    {
+        "title": "The Congress Blockchain (new, not tested)",
+        "description": "Create a democracy (https://www.ethereum.org/dao)",
+        "file": "contracts/TheBlockchainCongress.sol",
+        "contractToDeploy": "Congress",
+        "type": 0,
+        "params": [
+            {
+                "name": "Minimum quorum for proposals",
+                "description": "Is the minimum amount of votes a proposal needs to have before it can be executed",
+                "tag": "minimumQuorumForProposals",
+                "placeholder": "10",
+                "type": "number",
+                "min": 0,
+                "max": 999999
+            },
+            {
+                "name": "Minutes for debate",
+                "description": "Is the minimum amount of time (in minutes) that needs to pass before it can be executed",
+                "tag": "minutesForDebate",
+                "placeholder": "1440",
+                "type": "number",
+                "min": 1,
+                "max": 99999
+            },
+            {
+                "name": "Margin of votes for majority",
+                "description": "A proposal passes if there are more than 50% of the votes plus the margin. Leave at 0 for simple majority, put it at the number of members - 1 to require an absolute consensus.",
+                "tag": "decimals",
+                "placeholder": "2",
+                "type": "marginOfVotesForMajority",
+                "min": -9999,
+                "max": 9999
+            }
+        ],
+        "resume": "TO-DO"
     }
 ]
