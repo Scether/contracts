@@ -47,7 +47,7 @@
         "description": "Create a democracy (https://www.ethereum.org/dao)",
         "file": "contracts/TheBlockchainCongress.sol",
         "contractToDeploy": "Congress",
-        "type": 0,
+        "type": 1,
         "params": [
             {
                 "name": "Minimum quorum for proposals",
